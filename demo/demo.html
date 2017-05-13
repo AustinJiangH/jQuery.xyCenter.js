@@ -21,9 +21,14 @@
 
 
 <script>
+    let options = {
+        rate:1/3,
+        direction:'xy',
+        type: 'transform'
+    };
 
     $('#inner').xyCenter();
-    $('p').xyCenter();
+    $('p').xyCenter(options);
 
 </script>
 

@@ -25,21 +25,21 @@
 <pre>
     <code>
 $('selector').xyCenter();
-$('selector').xCenter();
-$('selector').yCenter();
     </code>
 </pre>
-<p>Also, you can customize the blank ratio</p>
+<p>Also, you can customize the options</p>
 <pre>
     <code>
-$('selector').xyCenter(1/4);
-$('selector').xCenter(1/8);
-$('selector').yCenter(1/3);
+$('selector').xyCenter({
+    type      : 'margin',  // 'margin', 'relative', 'absolute', 'transform'
+    direction : 'xy',      // 'x'(horizontal), 'y'(vertical), 'xy'(both direction)
+    rate      : 1/2,
+
+});
+    
     </code>
 </pre>
 
-<h1>To dos:</h1>
-<p>More options to be added.</p>
 
 <h1>License</h1>
 <p>For now, All Rights Reserved.</p>
