@@ -23,13 +23,13 @@
 <h1>Usage:</h1>
 <h2>JavaScript:</h2>
 <pre>
-    <code>
+    
 $('selector').xyCenter();
-    </code>
+    
 </pre>
 <p>Also, you can customize the options</p>
 <pre>
-    <code>
+    
 $('selector').xyCenter({
     type      : 'margin',  // 'margin', 'relative', 'absolute', 'transform'
     direction : 'xy',      // 'x'(horizontal), 'y'(vertical), 'xy'(both direction)
@@ -37,7 +37,7 @@ $('selector').xyCenter({
 
 });
     
-    </code>
+    
 </pre>
 
 
